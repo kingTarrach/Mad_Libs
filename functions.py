@@ -9,6 +9,30 @@ import os
 global choice
 choice = 0
 
+def menu():
+    os.system("clear")              # Clears screen
+    get_user_choice()               # Function will run infinitely until user gives a integer response
+    match choice:
+        # run_one_mad_lib(chunks, prompts)
+        case 1:
+            run_one_mad_lib(camping_sentence_chunks, camping_prompts)
+        case 2:
+            run_one_mad_lib(hospital_sentence_chunks, hospital_prompts)
+        case 3:
+            run_one_mad_lib(zoo_sentence_chunks, zoo_prompts)
+        case 4:
+            run_one_mad_lib(enchanted_forest_chunks, enchanted_forest_prompts)
+        case 5:
+            run_one_mad_lib(pizza_chunks, pizza_prompts)
+        case 6:
+            run_one_mad_lib(animals_chunks, animals_prompts)
+        case 7:
+            run_one_mad_lib(recipe_chunks, recipe_prompts)
+        case 8:
+            run_one_mad_lib(mad_scientist_chunks, mad_scientist_prompts)
+        case _:
+            menu()
+
 def return_sentence(choice, index):
     match choice:
         case 1:
@@ -17,19 +41,16 @@ def return_sentence(choice, index):
             return hospital_sentence_chunks[index]
         case 3:
             return zoo_sentence_chunks[index]
-
-def menu():
-    os.system("clear")              # Clears screen
-    get_user_choice()               # Function will run infinitely until user gives a valid choice
-    match choice:
-        case 1:
-            run_one_mad_lib(camping_sentence_chunks, camping_prompts)
-        case 2:
-            run_one_mad_lib(hospital_sentence_chunks, hospital_prompts)
-        case 3:
-            run_one_mad_lib(zoo_sentence_chunks, zoo_prompts)
-        case _:
-            menu()
+        case 4:
+            return enchanted_forest_chunks[index]
+        case 5:
+            return pizza_chunks[index]
+        case 6:
+            return animals_chunks[index]
+        case 7:
+            return recipe_chunks[index]
+        case 8:
+            return mad_scientist_chunks[index]
    
 def get_user_choice():       
     global choice                       # var choice will be changed globally in this function  
@@ -95,6 +116,6 @@ def make_sentences(descriptor, index, p_length):
     #Now take the existing "chunk_and_user_input" which is the generated sentence and add the users word next
     user_input = ""
     while not user_input.strip():
-        user_input = input("Print: ")
+        user_input = input("> ")
     chunk_and_user_input = chunk_and_user_input + " " + user_input
     return chunk_and_user_input

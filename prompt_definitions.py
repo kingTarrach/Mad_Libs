@@ -8,5 +8,7 @@ prompt_definitions =   [("Proper noun", "A person's name"),
                 ("Adverb", "Modifies or describes a verb, adjective, or another adverb"),
                 ("Onomatopoeia", "Word used to express emotion (Ow!, Kachow!)"),
                 ("Silly word", "Anything you want!"),
-                ("Verb, past tense", "Example: \"Bought\", \"Threw\"")
+                ("Verb, past tense", "Examples: \"Bought\", \"Threw\""),
+                ("Language", "Examples: \"English\", \"Spanish\""),
+                ("Measurement", "Examples: \"Cups\", \"Table Spoons\"")
                 ]
