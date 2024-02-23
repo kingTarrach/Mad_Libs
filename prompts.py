@@ -17,3 +17,5 @@ animals_prompts = ["Adjective", "REMEMBER: Animal", "Country", "Same animal", "C
 recipe_prompts = ["REMEMBER: Food item", "Same food item", "Number", "Measurement", "Adjective", "Verb (ending in ing)", "Adjective", "Adverb", "Verb", "Adjective", "Noun", "Adjective", "Verb", "Adjective", "Noun", "Verb", "Adjective", "Same food item", "Noun", "Adjective"]
 
 mad_scientist_prompts = ["Color", "Verb (ending in ed)", "Number", "Animal", "Adjective", "Tool", "Vegetable", "Container type", "Color", "Noun", "Fruit (plural)", "Candy (plural)", "Noun (plural)", "Noun", "Verb", "Furniture", "Color", "Noun (plural)", "Noun (plural)"]
+
+fifty_shades_of_gray_prompts = ["Verb (ending with s)", "Body part", "Body part", "Verb (ending with s)", "Body part", "Body part", "Verb (ending with s)", "Adjective", "Adjective", "Adjective", "Body part", "Body part", "Body part", "Body part", "Verb (ending with s)", "Noun", "Body part", "Noun", "Body part", "Body part", "Body part", "Adverb", "Adjective", "Noun", "Celebrity crush", "Adjective", "Adjective", "Verb (ending with ing)"]

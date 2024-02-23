@@ -30,6 +30,8 @@ def menu():
             run_one_mad_lib(recipe_chunks, recipe_prompts)
         case 8:
             run_one_mad_lib(mad_scientist_chunks, mad_scientist_prompts)
+        case 9:
+            run_one_mad_lib(fifty_shades_of_gray_chunks, fifty_shades_of_gray_prompts)
         case _:
             menu()
 
@@ -51,6 +53,8 @@ def return_sentence(choice, index):
             return recipe_chunks[index]
         case 8:
             return mad_scientist_chunks[index]
+        case 9:
+            return fifty_shades_of_gray_chunks[index]
    
 def get_user_choice():       
     global choice                       # var choice will be changed globally in this function  
