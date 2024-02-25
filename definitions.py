@@ -6,6 +6,7 @@ definitions =   [("Proper noun", "A person's name"),
                 ("Verb", "Expresses action or being"),
                 ("Adjective", "A Feeling"),
                 ("Adverb", "Modifies or describes a verb, adjective, or another adverb"),
-                ("Onomatopoeia", "Word used to express emotion (Ow, Kachow)"),
+                ("Onomatopoeia", "Word used to express emotion (Ow!, Kachow!)"),
                 ("Silly word", "Anything you want!")
+                ("Verb, past tense", "Example: \"Bought\", \"Threw\"")
                 ]
