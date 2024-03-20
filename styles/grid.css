@@ -1,0 +1,59 @@
+
+.mad-lib-grid {
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: 1fr 8fr 4fr;
+    margin-top: 200px;
+}
+
+.number-column,
+.name-column,
+.genre-column {
+    vertical-align: center;
+    text-align: center;
+    height: 30px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    margin: -1.2px;
+}
+
+.number-header-text,
+.name-header-text,
+.genre-header-text {
+    color: black;
+    margin-top: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Roboto, Arial;
+}
+
+.number-text,
+.genre-text {
+    margin-top: 6px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Roboto, Arial;
+}
+
+.name-button {
+    background: none;
+    text-decoration: underline;
+    border: none;
+    color: purple;
+    text-align: center;
+    margin-top: 2.5px;
+    font-size: 20px;
+}
+
+.name-button:hover {
+    cursor: pointer;
+    text-shadow: 0 0 0.5px rgba(0, 0, 0, .4);
+    opacity: .8;
+}
+
+.name-button:active {
+    opacity: .5;
+}

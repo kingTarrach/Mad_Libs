@@ -1,0 +1,25 @@
+
+.header-box {
+    display: block;
+    height: 120px;
+    background-color: blanchedalmond;
+    background-image: url("Images/Mad_Libs_Banner.png");
+    background-size: cover;
+    background-position-y: 330px;
+    border-radius: 3px;
+}
+
+.header-text {
+    font-family: Roboto, Arial;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+html {
+    background-color: lightblue;
+}
